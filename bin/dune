@@ -1,0 +1,4 @@
+(executable
+ (public_name easyjson)
+ (name main)
+ (libraries easyjson fmt))

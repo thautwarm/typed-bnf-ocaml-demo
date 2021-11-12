@@ -1,0 +1,5 @@
+(library
+ (name easyjson)
+ (libraries menhirLib sedlex sedlex.ppx fmt)
+ (preprocess
+  (pps sedlex.ppx)))
